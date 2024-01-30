@@ -1,8 +1,113 @@
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4">LLL</div>
-        <div class="col-sm-4">LLL</div>
-        <div class="col-sm-4">lll</div>
-    </div>
-</div>
+GRIDS, all of them gave me 2 on top and one on the bottom....
     
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+  </div>
+
+<!-- <div class="row">
+              <div class="col-sm">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU"></div>
+              <div class="col-sm"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU"></div>
+              <div class="col-sm"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU"></div>
+            </div>
+          </div> -->
+           <!--  <div class="container text-center">
+              <div class="row row-cols-auto">
+                <div class="col"><img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU"></div>
+                <div class="col"><img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU"></div>
+                <div class="col"><img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU"></div>
+                  <div class="col"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU"></div>
+                    <div class="col"><img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU"></div>
+              </div>
+            </div>
+            <div class="container text-center">
+              <div class="row row-cols-auto">
+                <div class="col"><img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU"></div>
+                <div class="col"><img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU"></div>
+                <div class="col"><img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU"></div>
+                <div class="col">Column</div>
+              </div>
+            </div> -->
+          
+          </div>
+          <div class="container text-center">
+            <div class="row row-cols-3">
+              <div class="col"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU"></div>
+              <div class="col"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU"></div>
+              <div class="col"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU"></div>
+          </div> -->
+
+          <!-- <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+              tabindex="0">
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU">
+                  </div>
+                  <div class="col">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU">
+                  </div>
+                  <div class="col">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU">
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- <div class="container">
+            <div class="row">
+                <div class="col-1">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU">
+                </div>
+                </div>
+                <div class="col-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU">
+                </div>
+              </div>
+                <div class="col-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU">
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU">
+                </div></div>
+              <div class="col-sm-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU">
+                </div></div>
+              <div class="col-sm-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhwEgz-e9tyxtm3-9DpD0QGGaJ8vsdT_xZw&usqp=CAU">
+                </div></div>
+          </div> -->
