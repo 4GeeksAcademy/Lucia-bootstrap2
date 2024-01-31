@@ -24,22 +24,21 @@
 
 <body>
   <!-- NAV with 3 section -->
-  <div class="container">
-    <div class="d-flex justify-content-between">
-      <div class="container-fluid">
         <nav class="navbar bg-body-tertiary">
-
+          <div class="container-fluid">
+            <div>
           <a class="navbar-brand" href="#">
             <img
               src="https://static.vecteezy.com/system/resources/thumbnails/022/032/274/small/instagram-circular-black-icon-images-free-vector.jpg"
               alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
             Instagram
           </a>
-
-          <div class="col-3">
+        </div>
+          <div>
+          
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
               data-bs-whatever="@getbootstrap">Create new Post</button>
-          </div>
+        
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog">
@@ -69,14 +68,13 @@
               </div>
             </div>
           </div>
-      </div>
-      <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
         aria-expanded="false">
         <span class="material-symbols-outlined">
           settings
         </span>
       </button>
-      <ul class="dropdown-menu dropdown-menu-dark">
+      <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
         <li><a class="dropdown-item active" href="#">Profile</a></li>
         <li><a class="dropdown-item" href="#">Accesibility</a></li>
         <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
@@ -87,16 +85,15 @@
       </ul>
     </div>
   </div>
-  </div>
+      </nav>
 
 <!--  Grid && View responsive tabs// NEED background white or grey not blue... I tried using this ;
    <button type="button" class="btn btn-outline-light">Light</button>
    but not responding..
   -->
   <div class="row justify-content-center">
-    <div class="col-md-3">
       <div class="container text-center">
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
             <button class="nav-link active btn btn-outline-light" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
               type="button" role="tab" aria-controls="pills-home" aria-selected="true">
@@ -117,7 +114,7 @@
           <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
             tabindex="0">
             <div class="row">
-              <div class="col-4 ">
+              <div class="col-4">
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllRvj0K3idqOT2b37luujVAkGeDc91FwwgQ&usqp=CAU">
               </div>
@@ -172,7 +169,6 @@
             </div>
           </div>
         </div>
-      </div>
     </div>
 
   </div>
